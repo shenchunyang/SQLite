@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C10537451D2B48CE0096C6A9 /* delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10537441D2B48CE0096C6A9 /* delete.swift */; };
 		C11C4D401D2A110500DE0882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C4D3F1D2A110500DE0882 /* AppDelegate.swift */; };
 		C11C4D421D2A110500DE0882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C4D411D2A110500DE0882 /* ViewController.swift */; };
 		C11C4D451D2A110500DE0882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11C4D431D2A110500DE0882 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C10537441D2B48CE0096C6A9 /* delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = delete.swift; sourceTree = "<group>"; };
 		C11C4D3C1D2A110500DE0882 /* SQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11C4D3F1D2A110500DE0882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C11C4D411D2A110500DE0882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				C11C4D4B1D2A110500DE0882 /* Info.plist */,
 				C11C4D6F1D2A114700DE0882 /* Header.h */,
 				C1A38C7C1D2A7E86008F6BDB /* show.swift */,
+				C10537441D2B48CE0096C6A9 /* delete.swift */,
 			);
 			path = SQLite;
 			sourceTree = "<group>";
@@ -216,6 +219,9 @@
 		C11C4D341D2A110500DE0882 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"请您输入要删除的姓名！",
+				);
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = scy;
@@ -286,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C10537451D2B48CE0096C6A9 /* delete.swift in Sources */,
 				C1A38C7D1D2A7E86008F6BDB /* show.swift in Sources */,
 				C11C4D7A1D2A154600DE0882 /* String-Extras.swift in Sources */,
 				C11C4D781D2A154600DE0882 /* SQLiteDB.swift in Sources */,

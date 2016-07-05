@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     var db:SQLiteDB!
     
     @IBOutlet weak var txtUname: UITextField!
+    @IBOutlet weak var text: UIButton!
+    @IBOutlet weak var text1: UIButton!
     @IBOutlet weak var txtMobile: UITextField!
     @IBOutlet weak var txtEmail: UITextField!
     @IBOutlet weak var txtAddress: UITextField!

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="x0R-9u-axp">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -88,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-108" y="303"/>
+            <point key="canvasLocation" x="-703" y="376"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OU2-2P-z5t">
@@ -104,7 +104,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTR-ys-6bj">
                                 <rect key="frame" x="123" y="55" width="75" height="30"/>
-                                <state key="normal" title="增加联系人"/>
+                                <state key="normal" title="新增联系人"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="modal" id="xfi-8n-SVA"/>
                                 </connections>
@@ -123,6 +123,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHZ-VY-qDD">
                                 <rect key="frame" x="123" y="248" width="75" height="30"/>
                                 <state key="normal" title="删除联系人"/>
+                                <connections>
+                                    <segue destination="QZT-gF-6MZ" kind="modal" id="ID7-qU-EZd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -130,7 +133,50 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZ3-DD-Nmv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="255" y="303"/>
+            <point key="canvasLocation" x="5" y="376"/>
+        </scene>
+        <!--Delete-->
+        <scene sceneID="2A4-yh-sPZ">
+            <objects>
+                <viewController id="QZT-gF-6MZ" customClass="delete" customModule="SQLite" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cSY-CP-9Eb"/>
+                        <viewControllerLayoutGuide type="bottom" id="tfe-Dh-qkr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="asK-pt-ySP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVf-1c-MeS">
+                                <rect key="frame" x="146" y="155" width="30" height="30"/>
+                                <state key="normal" title="删除"/>
+                                <connections>
+                                    <action selector="deleee:" destination="QZT-gF-6MZ" eventType="touchUpInside" id="msR-ge-7Hp"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入您要删除的联系人！" textAlignment="center" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="TCz-is-yWo" colorLabel="IBBuiltInLabel-Gray">
+                                <rect key="frame" x="66" y="77" width="188" height="30"/>
+                                <color key="textColor" red="0.081454969942569733" green="0.74292987585067749" blue="0.7204776406288147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCJ-2b-4qf">
+                                <rect key="frame" x="225" y="418" width="75" height="30"/>
+                                <state key="normal" title="返回主菜单"/>
+                                <connections>
+                                    <segue destination="x0R-9u-axp" kind="modal" id="TJB-Y9-z72"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="name1" destination="TCz-is-yWo" id="sie-rk-G1h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o6D-MI-DPw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6" y="1064"/>
         </scene>
         <!--Show Controller-->
         <scene sceneID="QaX-Nv-EoG">
@@ -167,10 +213,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Av-5R-Ici" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="635" y="302"/>
+            <point key="canvasLocation" x="631" y="376"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Pgg-1K-G2g"/>
+        <segue reference="TJB-Y9-z72"/>
     </inferredMetricsTieBreakers>
 </document>
