@@ -20,6 +20,7 @@
 		C11C4D781D2A154600DE0882 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C4D751D2A154600DE0882 /* SQLiteDB.swift */; };
 		C11C4D791D2A154600DE0882 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C4D761D2A154600DE0882 /* SQLTable.swift */; };
 		C11C4D7A1D2A154600DE0882 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C4D771D2A154600DE0882 /* String-Extras.swift */; };
+		C11C7C011D2CA792008E3945 /* show onebody.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C7C001D2CA792008E3945 /* show onebody.swift */; };
 		C1A38C7D1D2A7E86008F6BDB /* show.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A38C7C1D2A7E86008F6BDB /* show.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		C11C4D751D2A154600DE0882 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
 		C11C4D761D2A154600DE0882 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
 		C11C4D771D2A154600DE0882 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
+		C11C7C001D2CA792008E3945 /* show onebody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "show onebody.swift"; sourceTree = "<group>"; };
 		C1A38C7C1D2A7E86008F6BDB /* show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = show.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 				C11C4D6F1D2A114700DE0882 /* Header.h */,
 				C1A38C7C1D2A7E86008F6BDB /* show.swift */,
 				C10537441D2B48CE0096C6A9 /* delete.swift */,
+				C11C7C001D2CA792008E3945 /* show onebody.swift */,
 			);
 			path = SQLite;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				C11C4D781D2A154600DE0882 /* SQLiteDB.swift in Sources */,
 				C11C4D791D2A154600DE0882 /* SQLTable.swift in Sources */,
 				C11C4D421D2A110500DE0882 /* ViewController.swift in Sources */,
+				C11C7C011D2CA792008E3945 /* show onebody.swift in Sources */,
 				C11C4D401D2A110500DE0882 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

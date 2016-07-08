@@ -103,30 +103,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTR-ys-6bj">
-                                <rect key="frame" x="123" y="55" width="75" height="30"/>
+                                <rect key="frame" x="123" y="146" width="75" height="30"/>
                                 <state key="normal" title="新增联系人"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="modal" id="xfi-8n-SVA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEm-zy-1OI">
-                                <rect key="frame" x="123" y="119" width="75" height="30"/>
+                                <rect key="frame" x="123" y="228" width="75" height="30"/>
                                 <state key="normal" title="查看联系人"/>
                                 <connections>
                                     <segue destination="5k7-va-MgU" kind="modal" id="0ah-wt-8F4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IrK-jO-tGx">
-                                <rect key="frame" x="123" y="185" width="75" height="30"/>
-                                <state key="normal" title="修改联系人"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHZ-VY-qDD">
-                                <rect key="frame" x="123" y="248" width="75" height="30"/>
+                                <rect key="frame" x="123" y="309" width="75" height="30"/>
                                 <state key="normal" title="删除联系人"/>
                                 <connections>
                                     <segue destination="QZT-gF-6MZ" kind="modal" id="ID7-qU-EZd"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UkS-JD-yse">
+                                <rect key="frame" x="0.0" y="41" width="320" height="44"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.012172401882708073" green="0.4550510048866272" blue="0.98334914445877075" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textShadowColor" red="0.0052269282750785351" green="1" blue="0.24821150302886963" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="通讯录" id="wMG-79-vqL"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -161,7 +167,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCJ-2b-4qf">
-                                <rect key="frame" x="225" y="418" width="75" height="30"/>
+                                <rect key="frame" x="225" y="377" width="75" height="30"/>
                                 <state key="normal" title="返回主菜单"/>
                                 <connections>
                                     <segue destination="x0R-9u-axp" kind="modal" id="TJB-Y9-z72"/>
@@ -191,19 +197,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3B-fk-Av4">
-                                <rect key="frame" x="186" y="477" width="114" height="30"/>
+                                <rect key="frame" x="186" y="443" width="114" height="30"/>
                                 <state key="normal" title="返回主菜单"/>
                                 <connections>
                                     <segue destination="x0R-9u-axp" kind="modal" id="Pgg-1K-G2g"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HPz-yB-SEt">
-                                <rect key="frame" x="40" y="111" width="240" height="299"/>
+                                <rect key="frame" x="40" y="28" width="240" height="276"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.22425547353261066" green="0.38709796578456268" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rxo-9t-6Hn">
+                                <rect key="frame" x="123" y="393" width="75" height="30"/>
+                                <state key="normal" title="按姓名查找"/>
+                                <connections>
+                                    <segue destination="21p-uw-h96" kind="modal" id="xJf-lD-LdF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -215,8 +228,57 @@
             </objects>
             <point key="canvasLocation" x="631" y="376"/>
         </scene>
+        <!--Showone Controller-->
+        <scene sceneID="09Y-ez-XaC">
+            <objects>
+                <viewController id="21p-uw-h96" customClass="showoneController" customModule="SQLite" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="djR-ds-qRs"/>
+                        <viewControllerLayoutGuide type="bottom" id="ejX-WT-ahf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3rP-Wy-ymD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入您要查询人姓名！" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X8r-Kh-RW2">
+                                <rect key="frame" x="71" y="47" width="178" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGo-2I-AT4">
+                                <rect key="frame" x="145" y="99" width="30" height="30"/>
+                                <state key="normal" title="查找"/>
+                                <connections>
+                                    <action selector="query:" destination="21p-uw-h96" eventType="touchUpInside" id="pNt-17-mCe"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qSv-3u-t2O">
+                                <rect key="frame" x="40" y="166" width="240" height="224"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXg-j3-hWy">
+                                <rect key="frame" x="220" y="483" width="75" height="30"/>
+                                <state key="normal" title="返回主菜单"/>
+                                <connections>
+                                    <segue destination="x0R-9u-axp" kind="modal" id="dLv-7P-8mx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="textname" destination="X8r-Kh-RW2" id="d9p-j7-bxI"/>
+                        <outlet property="view2" destination="qSv-3u-t2O" id="vDS-jf-SQ1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="83n-sF-QSr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052" y="376"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="TJB-Y9-z72"/>
+        <segue reference="dLv-7P-8mx"/>
     </inferredMetricsTieBreakers>
 </document>
