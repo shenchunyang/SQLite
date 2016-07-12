@@ -18,65 +18,65 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IRf-aW-eUO">
-                                <rect key="frame" x="142" y="54" width="97" height="30"/>
+                                <rect key="frame" x="185" y="54" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Ih-TZ-YUi">
-                                <rect key="frame" x="142" y="139" width="97" height="30"/>
+                                <rect key="frame" x="185" y="139" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hpg-lY-FZ9">
-                                <rect key="frame" x="142" y="237" width="97" height="30"/>
+                                <rect key="frame" x="185" y="237" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="联系人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6kK-hK-d4I">
-                                <rect key="frame" x="41" y="58" width="51" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="联系方式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcb-b4-0S9">
-                                <rect key="frame" x="32" y="143" width="68" height="21"/>
+                                <rect key="frame" x="74" y="143" width="68" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="邮箱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDO-gj-eSF">
-                                <rect key="frame" x="49" y="241" width="34" height="21"/>
+                                <rect key="frame" x="91" y="241" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="家庭住址" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anT-oD-tC9">
-                                <rect key="frame" x="32" y="337" width="68" height="21"/>
+                                <rect key="frame" x="74" y="337" width="68" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8m-CH-qJg">
-                                <rect key="frame" x="240" y="472" width="75" height="30"/>
-                                <state key="normal" title="返回主菜单"/>
-                                <connections>
-                                    <segue destination="x0R-9u-axp" kind="modal" id="MIF-pr-9Bq"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Yf-Hs-Jec">
-                                <rect key="frame" x="145" y="422" width="30" height="30"/>
+                                <rect key="frame" x="145" y="364" width="30" height="30"/>
                                 <state key="normal" title="保存"/>
                                 <connections>
                                     <action selector="saveClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1nz-ec-Opj"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oLd-OG-uGD">
-                                <rect key="frame" x="142" y="333" width="97" height="30"/>
+                                <rect key="frame" x="185" y="333" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="联系人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6kK-hK-d4I">
+                                <rect key="frame" x="83" y="58" width="51" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8m-CH-qJg">
+                                <rect key="frame" x="225" y="380" width="75" height="30"/>
+                                <state key="normal" title="返回主菜单"/>
+                                <connections>
+                                    <segue destination="x0R-9u-axp" kind="modal" id="MIF-pr-9Bq"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.9505811333656311" green="0.89563506841659546" blue="0.79080837965011597" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <connections>
@@ -103,28 +103,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTR-ys-6bj">
-                                <rect key="frame" x="123" y="146" width="75" height="30"/>
+                                <rect key="frame" x="157" y="146" width="75" height="30"/>
                                 <state key="normal" title="新增联系人"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="modal" id="xfi-8n-SVA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEm-zy-1OI">
-                                <rect key="frame" x="123" y="228" width="75" height="30"/>
+                                <rect key="frame" x="157" y="228" width="75" height="30"/>
                                 <state key="normal" title="查看联系人"/>
                                 <connections>
                                     <segue destination="5k7-va-MgU" kind="modal" id="0ah-wt-8F4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHZ-VY-qDD">
-                                <rect key="frame" x="123" y="309" width="75" height="30"/>
+                                <rect key="frame" x="157" y="305" width="75" height="30"/>
                                 <state key="normal" title="删除联系人"/>
                                 <connections>
                                     <segue destination="QZT-gF-6MZ" kind="modal" id="ID7-qU-EZd"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UkS-JD-yse">
-                                <rect key="frame" x="0.0" y="41" width="320" height="44"/>
+                                <rect key="frame" x="34" y="43" width="320" height="44"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" red="0.012172401882708073" green="0.4550510048866272" blue="0.98334914445877075" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="textShadowColor" red="0.0052269282750785351" green="1" blue="0.24821150302886963" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -134,12 +134,12 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.9505811333656311" green="0.89563506841659546" blue="0.79080837965011597" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZ3-DD-Nmv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5" y="376"/>
+            <point key="canvasLocation" x="-357" y="376"/>
         </scene>
         <!--Delete-->
         <scene sceneID="2A4-yh-sPZ">
@@ -154,27 +154,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVf-1c-MeS">
-                                <rect key="frame" x="146" y="155" width="30" height="30"/>
+                                <rect key="frame" x="191" y="213" width="30" height="30"/>
                                 <state key="normal" title="删除"/>
                                 <connections>
                                     <action selector="deleee:" destination="QZT-gF-6MZ" eventType="touchUpInside" id="msR-ge-7Hp"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入您要删除的联系人！" textAlignment="center" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="TCz-is-yWo" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="66" y="77" width="188" height="30"/>
+                                <rect key="frame" x="112" y="74" width="188" height="30"/>
+                                <color key="backgroundColor" red="0.9807012677192688" green="0.9692804217338562" blue="0.9315832257270813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.081454969942569733" green="0.74292987585067749" blue="0.7204776406288147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCJ-2b-4qf">
-                                <rect key="frame" x="225" y="377" width="75" height="30"/>
+                                <rect key="frame" x="259" y="353" width="75" height="30"/>
                                 <state key="normal" title="返回主菜单"/>
                                 <connections>
                                     <segue destination="x0R-9u-axp" kind="modal" id="TJB-Y9-z72"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.9505811333656311" green="0.89563506841659546" blue="0.79080837965011597" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="name1" destination="TCz-is-yWo" id="sie-rk-G1h"/>
@@ -196,29 +197,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3B-fk-Av4">
-                                <rect key="frame" x="186" y="443" width="114" height="30"/>
-                                <state key="normal" title="返回主菜单"/>
-                                <connections>
-                                    <segue destination="x0R-9u-axp" kind="modal" id="Pgg-1K-G2g"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HPz-yB-SEt">
-                                <rect key="frame" x="40" y="28" width="240" height="276"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="97" y="28" width="240" height="276"/>
+                                <color key="backgroundColor" red="0.98459964990615845" green="0.97306281328201294" blue="0.94368666410446167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.22425547353261066" green="0.38709796578456268" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rxo-9t-6Hn">
-                                <rect key="frame" x="123" y="393" width="75" height="30"/>
+                                <rect key="frame" x="180" y="344" width="75" height="30"/>
                                 <state key="normal" title="按姓名查找"/>
                                 <connections>
                                     <segue destination="21p-uw-h96" kind="modal" id="xJf-lD-LdF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3B-fk-Av4">
+                                <rect key="frame" x="223" y="377" width="114" height="30"/>
+                                <state key="normal" title="返回主菜单"/>
+                                <connections>
+                                    <segue destination="x0R-9u-axp" kind="modal" id="Pgg-1K-G2g"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.9505811333656311" green="0.89563506841659546" blue="0.79080837965011597" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="view1" destination="HPz-yB-SEt" id="aok-EE-3dH"/>
@@ -226,7 +227,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Av-5R-Ici" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="631" y="376"/>
+            <point key="canvasLocation" x="11" y="376"/>
         </scene>
         <!--Showone Controller-->
         <scene sceneID="09Y-ez-XaC">
@@ -241,32 +242,33 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入您要查询人姓名！" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X8r-Kh-RW2">
-                                <rect key="frame" x="71" y="47" width="178" height="30"/>
+                                <rect key="frame" x="117" y="33" width="178" height="30"/>
+                                <color key="backgroundColor" red="0.9807012677192688" green="0.9692804217338562" blue="0.9315832257270813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGo-2I-AT4">
-                                <rect key="frame" x="145" y="99" width="30" height="30"/>
+                                <rect key="frame" x="191" y="76" width="30" height="30"/>
                                 <state key="normal" title="查找"/>
                                 <connections>
                                     <action selector="query:" destination="21p-uw-h96" eventType="touchUpInside" id="pNt-17-mCe"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qSv-3u-t2O">
-                                <rect key="frame" x="40" y="166" width="240" height="224"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="86" y="114" width="240" height="224"/>
+                                <color key="backgroundColor" red="0.9807012677192688" green="0.9692804217338562" blue="0.9315832257270813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXg-j3-hWy">
-                                <rect key="frame" x="220" y="483" width="75" height="30"/>
+                                <rect key="frame" x="251" y="360" width="75" height="30"/>
                                 <state key="normal" title="返回主菜单"/>
                                 <connections>
                                     <segue destination="x0R-9u-axp" kind="modal" id="dLv-7P-8mx"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.9505811333656311" green="0.89563506841659546" blue="0.79080837965011597" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="textname" destination="X8r-Kh-RW2" id="d9p-j7-bxI"/>
@@ -275,10 +277,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="83n-sF-QSr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1052" y="376"/>
+            <point key="canvasLocation" x="369" y="376"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="dLv-7P-8mx"/>
+        <segue reference="MIF-pr-9Bq"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.42352941179999998" green="0.30588235289999999" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
 </document>

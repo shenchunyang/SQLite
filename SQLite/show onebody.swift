@@ -16,8 +16,6 @@ class showoneController: UIViewController {
     @IBOutlet weak var view2: UITextView!
     var db:SQLiteDB!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -32,7 +30,6 @@ class showoneController: UIViewController {
     {
         select()
     }
-    
     func select() {
         let name1=textname.text!
         let data = db.query("select * from user where uname='\(name1)'")
@@ -42,10 +39,7 @@ class showoneController: UIViewController {
             view2.text! += "联系人:" + String(user["uname"]!) + "\n" + "联系方式:" + String(user["mobile"]!) + "\n" + "邮箱:" + String(user["email"]!) + "\n" + "家庭住址" + String(user["address"]!) + "\n"
         }
     }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-    
 }
