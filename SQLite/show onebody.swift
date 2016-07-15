@@ -24,7 +24,6 @@ class showoneController: UIViewController {
         //如果表还不存在则创建表（其中uid为自增主键）
         db.execute("create table if not exists user(uid integer primary key,uname varchar(20),mobile varchar(20),email varchar(20),address varchar(20))")
         //如果有数据则加载
-        //show1()
     }
     @IBAction func query(sender: AnyObject)
     {

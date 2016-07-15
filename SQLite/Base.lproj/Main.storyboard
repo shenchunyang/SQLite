@@ -272,7 +272,7 @@
                     </view>
                     <connections>
                         <outlet property="textname" destination="X8r-Kh-RW2" id="d9p-j7-bxI"/>
-                        <outlet property="view2" destination="qSv-3u-t2O" id="vDS-jf-SQ1"/>
+                        <outlet property="view2" destination="qSv-3u-t2O" id="VmI-v0-vLb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="83n-sF-QSr" userLabel="First Responder" sceneMemberID="firstResponder"/>

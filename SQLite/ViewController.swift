@@ -14,8 +14,6 @@ class ViewController: UIViewController {
     var db:SQLiteDB!
     
     @IBOutlet weak var txtUname: UITextField!
-    @IBOutlet weak var text: UIButton!
-    @IBOutlet weak var text1: UIButton!
     @IBOutlet weak var txtMobile: UITextField!
     @IBOutlet weak var txtEmail: UITextField!
     @IBOutlet weak var txtAddress: UITextField!
@@ -45,7 +43,8 @@ class ViewController: UIViewController {
         let txtAddress = self.txtAddress.text!
         //插入数据库，这里用到了esc字符编码函数，其实是调用bridge.m实现的
         let sql = "insert into user(uname,mobile,email,address) values('\(txtUname)','\(txtMobile)','\(txtEmail)','\(txtAddress)')"
-        print("sql: \(sql)")
+        print("sql: \(sql)"
+        )
         //通过封装的方法执行sql
         let result = db.execute(sql)
         print(result)
